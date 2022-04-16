@@ -24,6 +24,7 @@ const defaultDelay = 750;
 const HOST = process.env.FRONT_HOST || "localhost";
 const PORT = process.env.FRONT_PORT || 3000;
 
+
 describe("Teste de saúde da aplicação 'Docker Trybe Todo-List'", () => {
   let browser;
   let page;
